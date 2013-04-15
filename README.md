@@ -15,6 +15,8 @@ See live examples on [Beanstalk](http://beanstalkapp.com) and [Postmark](https:/
 
 Installation is easy - choose glass2 theme, set Olark settings and theme variables to the same values and include Sass file to your project. You can copy and paste generated CSS and adjust settings manually, too.
 
+As you're going to overwrite Olark's styles they can't guarantee that everything will work propertly. I'll try to keep this theme as up to date as possible, but there is no guarantee that it won't be broken with a next Olark's update. You can read more about Olark customization on [their help site](https://www.olark.com/help/css).
+
 
 Settings and variables
 ----------------------
@@ -23,7 +25,7 @@ You can change settings on Settings > Appearance page in Olark and in Sass varia
 
 1. Set "Submit button background" and `$accent-color` variable to the same color.
 2. Set Width in "Olark Box Size and Location" and `$o-width` to the same value.
-3. Set "Olark link" to "No Branding".
+3. Set "Olark link" to "No Branding". (Requires whitelisted plan.)
 
 
 Operator avatars
