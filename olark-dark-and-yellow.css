@@ -136,5 +136,5 @@
   cursor: pointer;
 }
 #habla_window_state_div #habla_expanded_div > div:last-child {
-  display: none !important;
+  padding: 0 !important;
 }
