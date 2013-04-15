@@ -1,0 +1,193 @@
+/* Olark
+============================== */
+
+#habla_window_state_div {
+
+	// Config
+
+	.hbl_pal_main_font_family {
+		font-family: $f-sansserif !important;
+	}
+	.hbl_pal_header_font_size {
+		font-size: 12px !important;
+	}
+	.hbl_pal_main_font_size {
+		font-size: 13px !important;
+	}
+	.hbl_pal_input_font_size {
+	}
+
+	.hbl_txt_wrapper {
+		border-radius: 2px;
+
+		textarea {
+			resize: none;
+		}
+		textarea:focus {
+			outline: none !important;
+		}
+	}
+
+
+	&.olrk-state-compressed {
+		
+		#habla_window_div.hbl_pal_main_width {
+			width: auto !important;
+		}
+			#habla_both_div {
+				border-bottom: 0 !important;
+				white-space: nowrap !important;
+			}
+			.hbl_pal_main_bg {
+				background: $accent-color none !important;
+			}
+				#habla_oplink_a {
+					color: #FFF !important;
+				}
+				#habla_sizebutton_a {
+					margin-left: 33px !important;
+				}
+	}
+	&.olrk-state-expanded {
+
+	}
+
+
+	// Container
+
+	#habla_window_div {
+		margin-right: 10px !important;
+		margin-left: 10px !important;
+	}
+	#habla_panel_div {
+		box-shadow: 0 3px 6px rgba(#000, .5);
+	}
+
+
+	// Header
+
+	#habla_both_div {
+		border-bottom: 1px solid #555 !important;
+	}
+		#habla_topbar_div {
+			padding: $o-space !important;
+		}
+			#habla_oplink_a {
+				color: #AAA !important;
+			}
+			.habla_button {
+				opacity: .6;
+			}
+			.habla_button:hover {
+				opacity: 1;
+				background-color: transparent !important;
+			}
+
+
+	// Transcript
+
+	#habla_middle_wrapper_div {
+		border-bottom: 1px solid #555 !important;
+	}
+		#habla_conversation_div {
+			padding: $o-space !important;
+
+			.habla_conversation_p_item {
+				margin-bottom: .75em !important;
+				margin-left: 0 !important;
+				text-indent:  0 !important;
+				line-height: $o-linespacing !important;
+			}
+				.olrk_avatar {
+					border: 0 !important;
+					border-radius: 3px;
+					box-shadow: 0 2px 2px #000;
+				}
+				.hbl_pal_remote_fg {
+					color: #97DA85 !important;
+					font-weight: bold !important;
+					font-size: 12px !important;
+				}
+				.hbl_pal_local_fg {
+					color: #CCC !important;
+					font-weight: bold !important;
+				}
+		}
+
+
+	// Chat input field
+
+	#habla_chatform_form {
+
+		.hbl_txt_wrapper {
+			margin: 0 !important;
+			border: 0 !important;
+			padding: 0 !important;
+			background: #333 none !important;
+
+			textarea {
+				width: ($o-width - $o-space * 2) !important;
+				padding: $o-space !important;
+				line-height: $o-linespacing !important;
+			}
+			textarea:focus {
+				background-color: #3F3F3F !important;
+			}
+		}
+	}
+
+
+	// Starting chat
+
+	#habla_pre_chat_div {
+		padding: $o-space !important;
+
+		#habla_pre_chat_span {
+			display: block !important;
+			padding-top: .25em !important;
+			padding-bottom: .75em !important;
+			line-height: $o-linespacing !important;
+		}
+
+
+		.hbl_txt_wrapper {
+			border: 0 !important;
+			padding: 0 !important;
+
+			textarea {
+				width: ($o-width - $o-space * 2 - 10px) !important;
+				border-radius: 2px;
+				border: 1px solid #555 !important;
+				padding: 4px !important;
+				resize: none;
+			}
+			textarea:focus {
+				border-color: #666 !important;
+				background-color: #292929 !important;
+				outline: none !important;
+			}
+		}
+
+		.hbl_pal_offline_submit_bg {
+		  background-color: $accent-color !important;
+		  color: #333333 !important;
+		}
+
+		.habla_offline_submit_input {
+			float: left !important;
+			margin-top: $o-space !important;
+			border-radius: 3px;
+			padding: 6px 10px !important;
+			font-weight: bold !important;
+			font-size: 13px !important;
+			cursor: pointer;
+		}
+	}
+
+
+	// Powered by Olark
+
+	#habla_expanded_div > div:last-child {
+		display: none !important;
+	}
+}

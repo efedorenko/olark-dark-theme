@@ -1,0 +1,140 @@
+/* Olark
+============================== */
+#habla_window_state_div .hbl_pal_main_font_family {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif !important;
+}
+#habla_window_state_div .hbl_pal_header_font_size {
+  font-size: 12px !important;
+}
+#habla_window_state_div .hbl_pal_main_font_size {
+  font-size: 13px !important;
+}
+#habla_window_state_div .hbl_txt_wrapper {
+  border-radius: 2px;
+}
+#habla_window_state_div .hbl_txt_wrapper textarea {
+  resize: none;
+}
+#habla_window_state_div .hbl_txt_wrapper textarea:focus {
+  outline: none !important;
+}
+#habla_window_state_div.olrk-state-compressed #habla_window_div.hbl_pal_main_width {
+  width: auto !important;
+}
+#habla_window_state_div.olrk-state-compressed #habla_both_div {
+  border-bottom: 0 !important;
+  white-space: nowrap !important;
+}
+#habla_window_state_div.olrk-state-compressed .hbl_pal_main_bg {
+  background: #389458 none !important;
+}
+#habla_window_state_div.olrk-state-compressed #habla_oplink_a {
+  color: #FFF !important;
+}
+#habla_window_state_div.olrk-state-compressed #habla_sizebutton_a {
+  margin-left: 33px !important;
+}
+#habla_window_state_div #habla_window_div {
+  margin-right: 10px !important;
+  margin-left: 10px !important;
+}
+#habla_window_state_div #habla_panel_div {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+}
+#habla_window_state_div #habla_both_div {
+  border-bottom: 1px solid #555 !important;
+}
+#habla_window_state_div #habla_topbar_div {
+  padding: 12px !important;
+}
+#habla_window_state_div #habla_oplink_a {
+  color: #AAA !important;
+}
+#habla_window_state_div .habla_button {
+  opacity: .6;
+}
+#habla_window_state_div .habla_button:hover {
+  opacity: 1;
+  background-color: transparent !important;
+}
+#habla_window_state_div #habla_middle_wrapper_div {
+  border-bottom: 1px solid #555 !important;
+}
+#habla_window_state_div #habla_conversation_div {
+  padding: 12px !important;
+}
+#habla_window_state_div #habla_conversation_div .habla_conversation_p_item {
+  margin-bottom: .75em !important;
+  margin-left: 0 !important;
+  text-indent: 0 !important;
+  line-height: 1.4 !important;
+}
+#habla_window_state_div #habla_conversation_div .olrk_avatar {
+  border: 0 !important;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px #000;
+}
+#habla_window_state_div #habla_conversation_div .hbl_pal_remote_fg {
+  color: #97DA85 !important;
+  font-weight: bold !important;
+  font-size: 12px !important;
+}
+#habla_window_state_div #habla_conversation_div .hbl_pal_local_fg {
+  color: #CCC !important;
+  font-weight: bold !important;
+}
+#habla_window_state_div #habla_chatform_form .hbl_txt_wrapper {
+  margin: 0 !important;
+  border: 0 !important;
+  padding: 0 !important;
+  background: #333 none !important;
+}
+#habla_window_state_div #habla_chatform_form .hbl_txt_wrapper textarea {
+  width: 276px !important;
+  padding: 12px !important;
+  line-height: 1.4 !important;
+}
+#habla_window_state_div #habla_chatform_form .hbl_txt_wrapper textarea:focus {
+  background-color: #3F3F3F !important;
+}
+#habla_window_state_div #habla_pre_chat_div {
+  padding: 12px !important;
+}
+#habla_window_state_div #habla_pre_chat_div #habla_pre_chat_span {
+  display: block !important;
+  padding-top: .25em !important;
+  padding-bottom: .75em !important;
+  line-height: 1.4 !important;
+}
+#habla_window_state_div #habla_pre_chat_div .hbl_txt_wrapper {
+  border: 0 !important;
+  padding: 0 !important;
+}
+#habla_window_state_div #habla_pre_chat_div .hbl_txt_wrapper textarea {
+  width: 266px !important;
+  border-radius: 2px;
+  border: 1px solid #555 !important;
+  padding: 4px !important;
+  resize: none;
+}
+#habla_window_state_div #habla_pre_chat_div .hbl_txt_wrapper textarea:focus {
+  border-color: #666 !important;
+  background-color: #292929 !important;
+  outline: none !important;
+}
+#habla_window_state_div #habla_pre_chat_div .hbl_pal_offline_submit_bg {
+  background-color: #389458 !important;
+  color: #333333 !important;
+}
+#habla_window_state_div #habla_pre_chat_div .habla_offline_submit_input {
+  float: left !important;
+  margin-top: 12px !important;
+  border-radius: 3px;
+  padding: 6px 10px !important;
+  font-weight: bold !important;
+  font-size: 13px !important;
+  cursor: pointer;
+}
+#habla_window_state_div #habla_expanded_div > div:last-child {
+  display: none !important;
+}
