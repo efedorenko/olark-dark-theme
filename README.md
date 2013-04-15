@@ -3,7 +3,7 @@ Dark theme for Olark
 
 Custom CSS to prettify Olark's dark theme (glass2).
 
-See live examples on http://beanstalkapp.com and https://postmarkapp.com/
+See live examples on [Beanstalk](http://beanstalkapp.com) and [Postmark](https://postmarkapp.com/).
 
 Installation is easy - choose glass2 theme, set Olark settings and theme variables to the same values and include Sass file to your project. You can copy and paste generated CSS and adjust settings manually, too.
 
@@ -21,4 +21,4 @@ You can change settings on Settings > Appearance page in Olark and in Sass varia
 Operator avatars
 ----------------
 
-The new theme supports operator avatars. Learn how to add them: http://www.olark.com/customer/portal/articles/341508-operator-avatars
+The new theme supports operator avatars. [Learn how to add them.](http://www.olark.com/customer/portal/articles/341508-operator-avatars)
