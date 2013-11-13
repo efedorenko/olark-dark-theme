@@ -13,7 +13,7 @@ The new theme:
 
 See live examples on [Beanstalk](http://beanstalkapp.com) and [Postmark](https://postmarkapp.com/).
 
-Installation is easy - choose glass2 theme, set Olark settings and theme variables to the same values and include Sass file to your project. You can copy and paste generated CSS and adjust settings manually, too.
+Installation is easy — choose glass2 theme, set Olark settings and theme variables to the same values and include Sass file to your project. You can copy and paste generated CSS and adjust settings manually, too.
 
 As you’re going to overwrite Olark’s styles they can’t guarantee that everything will work propertly. I’ll try to keep this theme as up to date as possible, but there is no guarantee that it won’t be broken with a next Olark’s update. You can read more about Olark customization on [their help site](https://www.olark.com/help/css).
 
